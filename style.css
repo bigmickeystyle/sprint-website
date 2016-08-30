@@ -8,34 +8,33 @@
     float: left;
     width: 150px;
     height: 45px;
-    margin-left: 15px;
+    margin-left: 50px;
 }
 
 #hamburger {
     float: right;
     width: 50px;
     height: 50px;
-    margin-right: 15px;
+    margin-right: 50px;
 }
 
 #container{
     position: relative;
     width: 100%;
-    height: 435px;
+    height: 99%;
 }
 
 #dimmer {
     width:100%;
-    height: 100%;
+    height: 99%;
     background-color: black;
-    opacity: 0.3;
+    opacity: 0.4;
     position: absolute;
-    display: inline-block;
     top: 0;
     left: 0;
 }
 
 #reichstag {
     width:100%;
-    display: inline-block;
+    height: 100%;
 }
