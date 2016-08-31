@@ -2,6 +2,7 @@
     margin-bottom: 15px;
     width: 100%;
     height: 50px;
+    min-width: 400px;
 }
 
 #logo {
@@ -21,20 +22,57 @@
 #container{
     position: relative;
     width: 100%;
-    height: 99%;
+    height: 100%;
+    min-width: 400px;
 }
 
-#dimmer {
-    width:100%;
-    height: 99%;
+#dimmer{
+    width: 100%;
+    height: 100%;
     background-color: black;
     opacity: 0.4;
     position: absolute;
     top: 0;
     left: 0;
+    min-width: 400px;
 }
 
-#reichstag {
-    width:100%;
+#reichstag{
+    width: 100%;
     height: 100%;
+    vertical-align: bottom;
+    min-width: 400px;
+}
+
+#button {
+    position: relative;
+    height: 30%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -32%;
+    text-align: center;
+    min-width: 400px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+button {
+    position: absolute;
+    /*transform: translate(-50%, 0);*/
+    background-color: #FFCC33;
+    border-radius: 30px;
+    border: 3px solid #cc6600;
+    font-family: cassia;
+    color: #BA6006;
+    font-size: 30px;
+    font-weight: 600;
+    width: 30%;
+    height: 50%;
+    top: 50%;
+    left: 35%;
 }
