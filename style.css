@@ -1,8 +1,7 @@
-.header {
+    .header {
     margin-bottom: 15px;
     width: 100%;
     height: 50px;
-    min-width: 400px;
 }
 
 #logo {
@@ -23,7 +22,6 @@
     position: relative;
     width: 100%;
     height: 100%;
-    min-width: 400px;
 }
 
 #dimmer{
@@ -34,34 +32,32 @@
     position: absolute;
     top: 0;
     left: 0;
-    min-width: 400px;
 }
 
 #reichstag{
     width: 100%;
     height: 100%;
     vertical-align: bottom;
-    min-width: 400px;
 }
 
 #button {
     position: relative;
-    height: 30%;
+    height: 100%;
     width: 100%;
     margin: 0 auto;
-    margin-top: -32%;
+    margin-top: -60%;
     text-align: center;
-    min-width: 400px;
 }
 
-p {
+#welcome {
     color: #ffffff;
     font-size: 40px;
     font-style: italic;
     font-weight: bold;
+    font-family: serif;
 }
 
-button {
+#started {
     position: absolute;
     /*transform: translate(-50%, 0);*/
     background-color: #FFCC33;
@@ -71,8 +67,27 @@ button {
     color: #BA6006;
     font-size: 30px;
     font-weight: 600;
-    width: 30%;
-    height: 50%;
+    width: 20%;
+    height: 60%;
     top: 50%;
-    left: 35%;
+    left: 40%;
+    margin-top: 20px;
+}
+
+#grey {
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    background-color: #CCCCCC;
+}
+
+#footer {
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    background-color: #aaaaaa;
+}
+
+#copyright {
+
 }
